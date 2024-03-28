@@ -67,6 +67,13 @@ void q_short(int low, int high)
         }
         cmp_count++;
         if (i < j) //step 9
+        {
+            swap(i, j);
+        }
+    }
+    
+    if (low < j) { //step 11
+
     }
 
 
